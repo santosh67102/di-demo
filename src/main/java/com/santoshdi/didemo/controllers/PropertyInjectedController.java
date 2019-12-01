@@ -7,9 +7,9 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class PropertyInjectedController {
     @Autowired
-   public GreetingServiceImpl greetingService;
+    public GreetingServiceImpl greetingService;
 
-   public String sayHello(){
+    public String sayHello() {
         return greetingService.sayGreeting();
-   }
+    }
 }
